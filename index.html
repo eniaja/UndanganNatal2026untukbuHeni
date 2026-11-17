@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071b2c">
+  <meta name="description" content="Undangan Perayaan Natal Sekolah Kristen Galatia 2026">
+  <title>Perayaan Natal | Sekolah Kristen Galatia 2026</title>
+  <link rel="icon" type="image/png" href="logo-galatia.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="snow-container"></div>
+
+  <!-- HALAMAN PEMBUKA -->
+  <section id="cover" class="cover">
+    <div class="cover-content">
+      <div class="star">✦ ✧ ✦</div>
+      <p class="small-title">Sekolah Kristen Galatia Bekasi</p>
+      <h1>Perayaan<br><span>Natal</span></h1>
+      <div class="gold-line"></div>
+      <p class="cover-year">2026</p>
+      <p class="cover-date">14 DESEMBER 2026</p>
+
+      <div class="recipient">
+        Kepada Yth.<br>
+        <strong>Ibu Dra.Henny Soelaiman dan Pak Tommy</strong>
+      </div>
+
+      <button id="openInvitation" class="gold-button">
+        ✨ BUKA UNDANGAN
+      </button>
+    </div>
+  </section>
+
+  <!-- KONTEN UTAMA -->
+  <main id="mainContent" class="hidden">
+
+    <header class="hero">
+      <div class="hero-decoration">✦</div>
+      <p class="eyebrow">JOY • PEACE • LOVE</p>
+      <h1>Selamat<br><span>Hari Natal</span></h1>
+      <p class="verse">
+        "Aku telah datang ke dalam dunia sebagai terang, supaya setiap orang yang percaya kepada-Ku, jangan tinggal dalam kegelapan."
+      </p>
+      <p class="verse-ref">Yohanes 12:46</p>
+      <div class="christmas-tree">🎄</div>
+      <div class="santa-claus">🎅</div>
+      <p class="school-name">SEKOLAH KRISTEN GALATIA</p>
+      <p class="hero-subtitle">Mengundang Anda Merayakan Sukacita Natal</p>
+    </header>
+
+    <!-- SAMBUTAN -->
+    <section class="section greeting">
+      <p class="section-label">CHRISTMAS CELEBRATION 2026</p>
+      <h2>Dengan Sukacita Natal</h2>
+      <div class="gold-line"></div>
+      <p>
+        Dengan penuh sukacita dan rasa syukur kepada Tuhan,
+        kami mengundang Bapak/Ibu/Saudara/i untuk hadir
+        dalam Perayaan Natal Sekolah Kristen Galatia 2026.
+      </p>
+      <p>
+        Mari bersama-sama merayakan kasih Tuhan Yesus
+        dan berbagi damai serta sukacita Natal.
+      </p>
+    </section>
+
+    <!-- HITUNG MUNDUR -->
+    <section class="section countdown-section">
+      <p class="section-label">SAVE THE DATE</p>
+      <h2>Menghitung Hari</h2>
+      <div class="countdown">
+        <div class="time-box">
+          <strong id="days">00</strong>
+          <span>Hari</span>
+        </div>
+        <div class="time-box">
+          <strong id="hours">00</strong>
+          <span>Jam</span>
+        </div>
+        <div class="time-box">
+          <strong id="minutes">00</strong>
+          <span>Menit</span>
+        </div>
+        <div class="time-box">
+          <strong id="seconds">00</strong>
+          <span>Detik</span>
+        </div>
+      </div>
+      <p id="countdownMessage"></p>
+    </section>
+
+    <!-- DETAIL ACARA -->
+    <section class="section event-section">
+      <p class="section-label">THE SPECIAL DAY</p>
+      <h2>Detail Acara</h2>
+
+      <div class="event-card">
+        <div class="event-icon">📅</div>
+        <h3>Hari dan Tanggal</h3>
+        <p>Senin, 14 Desember 2026</p>
+
+        <div class="event-divider"></div>
+
+        <div class="event-icon">🕘</div>
+        <h3>Waktu</h3>
+        <p>09.00 WIB - Selesai</p>
+
+        <div class="event-divider"></div>
+
+        <div class="event-icon">📍</div>
+        <h3>Tempat</h3>
+        <p>Sekolah Kristen Galatia</p>
+        <p>Bekasi</p>
+      </div>
+    </section>
+
+    <!-- LOKASI -->
+    <section class="section location-section">
+      <p class="section-label">FIND OUR LOCATION</p>
+      <h2>Lokasi Acara</h2>
+      <p class="location-text">
+        Kami menantikan kehadiran Anda di Sekolah Kristen Galatia.
+      </p>
+
+      <div class="map-container">
+        <iframe
+          src="https://maps.google.com/maps?q=Sekolah%20Kristen%20Galatia%20Bekasi&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Lokasi Sekolah Kristen Galatia">
+        </iframe>
+      </div>
+
+      <a
+        class="gold-button map-button"
+        href="https://www.google.com/maps/search/?api=1&query=Sekolah+Kristen+Galatia+Bekasi"
+        target="_blank" rel="noopener">
+        📍 BUKA GOOGLE MAPS
+      </a>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section rsvp-section">
+      <p class="section-label">KONFIRMASI KEHADIRAN</p>
+      <h2>RSVP</h2>
+      <p>Mohon konfirmasikan kehadiran Anda.</p>
+
+      <form id="rsvpForm" class="form-card">
+        <label>Nama lengkap</label>
+        <input type="text" id="rsvpName" placeholder="Masukkan nama Anda" required>
+
+        <label>Jumlah tamu</label>
+        <input type="number" id="rsvpCount" min="1" max="20" value="1" required>
+
+        <label>Konfirmasi kehadiran</label>
+        <select id="rsvpStatus" required>
+          <option value="">Pilih jawaban</option>
+          <option value="Hadir">Ya, saya akan hadir</option>
+          <option value="Tidak hadir">Maaf, tidak dapat hadir</option>
+        </select>
+
+        <button type="submit" class="gold-button full-button">
+          KIRIM KONFIRMASI
+        </button>
+      </form>
+      <p id="rsvpMessage" class="message"></p>
+    </section>
+
+    <!-- BUKU TAMU -->
+    <section class="section guest-section">
+      <p class="section-label">GUEST BOOK</p>
+      <h2>Ucapan & Doa</h2>
+      <p>Tuliskan ucapan dan doa terbaik untuk perayaan Natal.</p>
+
+      <form id="guestForm" class="form-card">
+        <label>Nama</label>
+        <input type="text" id="guestName" placeholder="Nama Anda" required>
+
+        <label>Ucapan dan doa</label>
+        <textarea id="guestMessage" rows="4"
+          placeholder="Tuliskan ucapan Natal Anda..." required></textarea>
+
+        <button type="submit" class="gold-button full-button">
+          KIRIM UCAPAN
+        </button>
+      </form>
+
+      <div id="guestList" class="guest-list"></div>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="closing">
+      <div class="star">✦ ✧ ✦</div>
+      <h2>Damai dan Sukacita Natal</h2>
+      <p>
+        Terima kasih atas perhatian dan kehadiran
+        Bapak/Ibu/Saudara/i.
+      </p>
+      <p>Kiranya kasih Kristus senantiasa menyertai kita semua.</p>
+      <div class="christmas-tree">🎄</div>
+      <h3>Sekolah Kristen Galatia</h3>
+      <p class="copyright">© 2026 Sekolah Kristen Galatia</p>
+    </section>
+
+    <!-- TOMBOL MUSIK -->
+    <button id="musicButton" class="music-button" aria-label="Putar musik">
+      ♫
+    </button>
+
+    <audio id="backgroundMusic" loop>
+      <source src="natal.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- BAGIKAN -->
+    <button id="shareButton" class="share-button">
+      ↗ Bagikan Undangan
+    </button>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
